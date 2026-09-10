@@ -1,0 +1,13 @@
+body {
+    background-color: darkgray;
+}
+
+fieldset {
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+#container {
+    width: 50%;
+    margin: 0 auto;
+}
