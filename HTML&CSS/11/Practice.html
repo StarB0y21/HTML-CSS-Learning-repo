@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>practice 10</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: cursive;
+        }
+
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .grid-card{
+            width: 700px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+        }
+
+        .cards {
+            /* width: 250px; */
+            /* display: inline-block; */
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+            /* margin: 10px 20px; */
+        }
+
+        .card-image-container,
+        .card-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 3px;
+        }
+
+        .card-info {
+            width: 250px;
+            border-radius: 6px;
+        }
+
+        .card-name {
+            margin: 0 10px;
+        }
+
+        .card-name {
+            margin: 10px 10px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        .profile-data {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            /* column-gap: 5px; */
+            margin: 0 10px;
+        }
+
+        .card-profile,
+        .friends-nuumber {
+            /* vertical-align: middle; */
+        }
+
+        .card-profile {
+            width: 40px;
+            /* display: inline-block; */
+        }
+
+        .friends-nuumber {
+            /* display: inline-block; */
+            color: gray;
+            font-size: 17px;
+        }
+
+        .add-friends-button {
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(55, 113, 223);
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            width: 130px;
+            height: 35px;
+            margin: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-card">
+        <div class="cards">
+        <div class="card-image-container">
+            <img class="card-image" src="practice images/01.jpg">
+        </div>
+        <div class="card-info">
+            <p class="card-name">Oliver</p>
+            <div class="profile-data">
+                <img class="card-profile" src="practice images/petshop.jpg">
+                <p class="friends-nuumber">2 mutul friends</p>
+            </div>
+            <button class="add-friends-button">Add Friend</button>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card-image-container">
+            <img class="card-image" src="practice images/02.jpg">
+        </div>
+        <div class="card-info">
+            <p class="card-name">Oliver</p>
+            <div class="profile-data">
+                <img class="card-profile" src="practice images/petshop.jpg">
+                <p class="friends-nuumber">2 mutul friends</p>
+            </div>
+            <button class="add-friends-button">Add Friend</button>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card-image-container">
+            <img class="card-image" src="practice images/03.jpg">
+        </div>
+        <div class="card-info">
+            <p class="card-name">Oliver</p>
+            <div class="profile-data">
+                <img class="card-profile" src="practice images/petshop.jpg">
+                <p class="friends-nuumber">2 mutul friends</p>
+            </div>
+            <button class="add-friends-button">Add Friend</button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
