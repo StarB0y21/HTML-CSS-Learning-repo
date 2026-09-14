@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+p {
+    margin: 0;
+}
+
+.practice-one {
+    width: 340px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 3px 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.notifications-number {
+    width: 50px;
+    text-align: center;
+    background-color: rgb(65, 108, 235);
+    border-radius: 12px;
+    color: white;
+}
+
+.practice-two {
+    margin-top: 50px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin: 15px 0;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+
+.profole-info {
+    flex: 1;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-id {
+    font-size: 15px;
+    color: gray;
+}
+
+.follow-button {
+    border: none;
+    background-color: rgb(65, 147, 242);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 33px;
+    width: 80px;
+}
+
+.practice-tree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    background-color: rgb(99, 72, 149);
+    color: white;
+    height: 50px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.home-icon {
+    margin-left: 10px;
+}
+
+.search-input {
+    max-width: 400px;
+    width: 400px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid gray;
+}
+
+.download-button {
+    margin-right: 10px;
+    background: none;
+    border: 2px solid gray;
+    color: lightgray;
+    font-size: 16px;
+    height: 35px;
+    width: 95px;
+}
