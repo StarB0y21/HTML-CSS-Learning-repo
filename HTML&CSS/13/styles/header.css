@@ -1,0 +1,93 @@
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-section {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    height: 20px !important;
+    margin-right: 30px;
+    width: 30px !important;
+    margin-left: 13px;
+}
+
+.youtube-logo {
+    height: 18px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    font-size: 15px;
+    padding: 0 0 0 10px;
+    margin-left: 20px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.4);
+    flex: 1;
+    width: 0;
+}
+
+.search-bar::placeholder{
+    color: lightgray;
+}
+
+.search-btn{
+    height: 34px;
+    width: 50px;
+    background-color: lightgray;
+    border: solid 1px gray;
+    margin: -1px;
+    margin-right: 10px;
+}
+
+.search-btn-img{
+    height: 50%;
+}
+
+.mic-icon{
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: none;
+    margin-left: 10px;
+}
+
+.microphone-btn-img{
+    height: 50%;
+}
+
+.left-section {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    flex-shrink: 0;
+}
+.video-icon,
+.app-icon,
+.bell-icon,
+.channel-icon{
+    width: 20px;
+    cursor: pointer;
+}
+
+.channel-icon{
+    width: 30px;
+    border-radius: 20px;
+}
